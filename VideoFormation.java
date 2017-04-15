@@ -56,7 +56,12 @@ import objectdetectioninframes.CreateFrames;
 import javafx.event.*;
 import java.awt.event.ActionListener;
 import javax.swing.JTabbedPane;
-public VideoFormation {
+public VideoFormation {  
+    int imageCount;
+    static String path;
+    static String filepath;
+    static String filename;
+    static String sourcepath;
    public void VideoFormation(String FolderName1, String FolderName2,String FolderName3,int noOfFrames) throws IOException {
 
         final long duration = DEFAULT_TIME_UNIT.convert(6, SECONDS);
