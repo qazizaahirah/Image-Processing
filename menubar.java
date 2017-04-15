@@ -17,6 +17,7 @@ import java.io.IOException;
   public class menubar{
      JFileChooser fc = new JFileChooser(JFileChooserPath);
     String JFileChooserPath = ""
+
    public void menubar(String FolderName1, String FolderName2,String FolderName3,String original) {
         JFrame main = new JFrame("File Path");
         main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
